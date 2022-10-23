@@ -129,7 +129,7 @@ class Controller implements ActionListener, MouseListener, KeyListener {
 					// terminal.
 					if (!dispControls) {
 						System.out.println("\nControls:");
-						System.out.println("[ARROW KEYS] Move Mario in Play Mode\n[# KEYS] Choose Brick Type");
+						System.out.println("[ARROW KEYS] Move Mario in Play Mode\n[B] Throw Fireball\n[# KEYS] Choose Brick Type");
 						System.out.println("[CLICK] Place/Break Brick");
 						System.out.println("[A/D/W/X] Navigate Screens in Edit Mode");
 						System.out.println("[E] Toggle Edit Mode\n[U] Toggle UI\n[S] Save Bricks");
@@ -260,7 +260,7 @@ class Controller implements ActionListener, MouseListener, KeyListener {
 			// Allow the user to view the controls view Terminal by pressing C.
 			case KeyEvent.VK_C:
 				System.out.println("Controls:");
-				System.out.println("[ARROW KEYS] Move Mario in Play Mode\n[# KEYS] Choose Brick Type");
+				System.out.println("[ARROW KEYS] Move Mario in Play Mode\n[B] Throw Fireball\n[# KEYS] Choose Brick Type");
 				System.out.println("[CLICK] Place/Break Brick");
 				System.out.println("[A/D/W/X] Navigate Screens in Edit Mode");
 				System.out.println("[E] Toggle Edit Mode\n[U] Toggle UI\n[S] Save Bricks");
